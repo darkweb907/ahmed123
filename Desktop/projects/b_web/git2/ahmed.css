@@ -1,0 +1,32 @@
+body{
+	background: #eee;
+}
+#content{
+	width: 400px;
+	padding: 20px;
+	background: #fff;
+	padding-top: 0px;
+	margin: 0 auto;
+	color: #444;
+	overflow: hidden;
+	max-height:270px;
+	-webkit-transition:max-height 0.7s;
+	-moz-transition:max-height 0.7s;
+	transition: 0.7s;
+}
+#content.open{
+	max-height: 1000px;
+	-webkit-transition:max-height 0.7s;
+	-moz-transition:max-height 0.7s;
+	transition: 0.7s;
+}
+#show{
+	margin: 20px auto;
+	background: red;
+	display: block;
+	width: 140px;
+	text-align: center;
+	font-size: 31px;
+	cursor: pointer;
+
+}

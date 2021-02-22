@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to top right,#0000ff,#ffffff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.whatsapp{
+    width: 43%;
+    height: auto;
+    background: white;
+}
+  ul li{
+    display: inline;
+    color: white;
+
+
+}
+.search{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 19px;
+    margin-left: 32px;
+    font-size: 25px;
+}
+header{
+    background-color: green;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    font-style: italic;
+    margin-right: 19px;
+}
+.icon{
+    display: flex;
+    align-items: center;
+}
+.card{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card:last-child{
+    position: relative;
+    right: 22px;
+}
+#time{
+    position: relative;
+    left: 47px;
+}
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive website</title>
+   <link rel="stylesheet" href="tan.css"> 
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="image/images/logo.svg" alt="whatsapp.logo">
+            <nav>
+                <a href="#" class="hide-destop">
+                    <img src="image/images/ham.svg" alt="" class="menu"  style="margin-top: 22px; width: 29px;" id="menu">
+                </a>
+                <ul class="show-desktop hide-mobile" id="sam">
+                    <li><a><img  src="image/images/exit.svg" alt="eixt" class="exit" id="exit" class="hide-destop" ></a></li>
+                    <li class="rob"><a href="#">Home</a></li>
+                    <li class="rob"><a href="#">services</a></li>
+                    <li class="rob"><a href="#about">About</a></li>
+                    <li class="rob"><a href="#was" id="contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+            <section>
+                <img src="server.svg" alt="" class="server">
+                <h1 class="h1">Web Hosting for the Modern Era</h1>
+                <p class="subhead">Go serverless and pay only for what you use</p>
+                <img src="image/images/scroll.svg" alt="scroll" class="hide-mobile show-desktop">
+            </section>
+        
+        </div>
+    </div>
+    <div class="red-container">
+    <div class="container" id="about">
+        <ul>
+            <li>
+                <img src="image/images/icon-1.svg" alt="Calendar" >
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore</p>
+            </li>
+            <li>
+                <img src="image/images/icon-2.svg" alt="folder">
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore</p>
+            </li>
+            <li class="li">
+                <img src="image/images/icon-3.svg" alt="calculator" class="cal">
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore</p>
+            </li>
+        </ul>
+
+    </div>
+    </div>
+    <div class="blue">
+    <div class="container">
+        <ul>
+            </figure>
+            <li>
+                <figure>
+                    <img src="image/images/user1.png" alt="lady">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas tenetur totam, dolore</p>
+                    <figcaption>-jane Doe</figcaption>
+            </figure>
+            <li>
+                <figure>
+                    <img src="image/images/user2.png" alt="lady">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas tenetur totam, dolore</p>
+                    <figcaption>-john Doe</figcaption>
+                </figure>
+            </li>
+            </li>
+        </ul>
+    </div>
+    </div>
+    <div class="container">
+       <h2>Start your free trial now!</h2>
+       <a href="" id="get" class="free">Get Started</a>
+    </div> 
+    <footer id="footer">
+        <div class="footer">
+            <div class="container" id="was">
+                <div class="word">
+                <img src="image/images/logo-white.svg" alt="logo">
+                <p class="address" style="text-align: center;">Beesam Hotel,Airforce base123  <br>Nigeria</p>
+                <ul class="footer-links">
+                    <a href="">
+                        <li>Terms of Service</li>
+                    </a>
+                    <a href="">
+                        <li>Privacy policy</li>
+                    </a>
+                </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script>
+    var contact=document.getElementById("contact")
+    var exit=document.getElementById("exit")
+    var nav=document.getElementById("sam")
+    var menu=document.getElementById("menu")
+    
+    menu.onclick=function () {
+        nav.classList.toggle('hide-mobile');
+        return true
+    }
+    exit.onclick=function () {
+        nav.classList.add('hide-mobile')
+    }
+</script>
+</html>

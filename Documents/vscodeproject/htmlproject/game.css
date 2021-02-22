@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+}
+main{
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(to right top,#df65a2,#65dbeb);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.glass{
+    background: white;
+    min-height: 97vh;
+    width: 71%;
+    background: linear-gradient(to right top,
+    rgba(255,255,255,0.7),
+    rgba(206, 241, 6, 0.904) );
+    border-radius: 12px;
+    z-index: 3;
+    backdrop-filter: blur(2rem);
+    display: flex;
+}
+.circle1,.circle2{
+    background: white;
+    background: linear-gradient(to right top,
+    rgba(255,255,255,0.9),
+    rgba(255,255,255,0.1) );
+    height: 13rem;
+    width: 13rem;
+    position: absolute;
+    top: 5%;
+    border-radius: 13rem;
+}
+.circle1{
+    top: -3%;
+    left: 79%;
+}
+.circle2{
+    top: 79%;
+    left: 8%;
+}
+.profile{
+    padding: 12px;
+    flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 2rem;
+}
+.game{
+    flex: 2;
+}
+h2{
+    font-size: 22px;
+    opacity: 0.6;
+    color: #658ec6;}
+.links{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+.links:last-child h2{
+    position: relative;
+    left: 17px;
+}
+.links:first-child{
+    margin-right: 12px;
+}
+.links img{
+    position: relative;
+    right: 15px;
+    width: 43px;
+}
+.let{
+    height: 130px;
+    display: flex;
+    background: linear-gradient(to right top,#65dfc9,#65dbeb); 
+    border-radius: 32px;   
+}
+.let h2{
+    width: 50%;
+    font-size: 25px;
+    color: white;
+    position: relative;
+    top: -8px;
+    font-weight: 600;
+    opacity: 5;
+}
+.let img{
+    position: relative;
+    top: 15px;
+}
+.info{
+    color: #658ec6;
+}
+.game{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cards{
+    width: 512px;
+    padding: 21px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.7),
+        rgba(255, 255, 255, 0.3)
+    )
+}
+input{
+    border: 0px;
+    border-radius: 12px;
+    height: 25px;
+    background: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.7),
+        rgba(255, 255, 255, 0)
+    )
+}
+.percent h3{
+    font-size: 19px;
+    color:#6cdbeb;
+}
+h1{
+    color: #426696;
+    opacity: 0.8;
+    font-size: 42px;
+    margin: 0;
+}
